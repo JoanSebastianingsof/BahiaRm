@@ -1,0 +1,37 @@
+.footer{
+    background-color: rgb(97, 97, 97);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer_logo{
+padding: 5%;
+}
+.footer_logo>img{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+.footer_links{
+    text-align: center;
+    margin: auto;
+}
+
+.footer_links>a{
+ display: block;
+ color: #fff;
+ text-decoration: none;
+ cursor: pointer;
+ font-size: 25px;
+}
+
+.footer_links>a>span{
+    color: #fff;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer{
+        grid-template-columns: 1fr;
+        padding-bottom: 5%;
+    }
+}

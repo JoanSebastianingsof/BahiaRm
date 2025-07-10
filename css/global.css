@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+html {
+  font-family: 'Mulish', sans-serif;
+}
+
+.banner{
+  padding: 5%;
+  background-position: left;
+}
+
+.banner .contenido{
+  width: 50%;
+}
+
+.banner .contenido >h2{
+  font-size: 40px;
+}
+
+.text-bl{
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .banner{
+    background-position: bottom;
+  }
+
+  .banner .contenido{
+    width: 100%;
+  }
+}

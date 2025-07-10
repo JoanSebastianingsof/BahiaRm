@@ -1,0 +1,98 @@
+nav {
+  width: calc(100% - 100px);
+  height: 15vh;
+  margin-top: 0;
+  padding-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: calc(20px + 1.5vw);
+  padding: 0 50px 20px 50px;
+  font-weight: bold;
+  border-bottom: 4px solid white;
+}
+
+.header_ctn {
+  display: flex;
+  flex-direction: column;
+}
+
+.triangulo_ctn {
+  /*width: calc(100% - 100px);*/
+  width: calc(100% - 6vw);
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.triangulo_ctn div {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.triangulo_ctn img {
+  width: 30%;
+  margin-top: -2px;
+}
+
+.triangulo1 {
+  /*width: 257px;*/
+  width: calc(270px + 1.7vw);
+}
+
+.triangulo2 {
+  /*width: 313px;*/
+  width: calc(270px + 1.7vw);
+}
+
+.triangulo3 {
+  /*width: 310px;*/
+  width: calc(270px + 1.7vw);
+}
+
+@media (max-width: 1024px) {
+  nav {
+    width: 100%;
+    padding-right: 0;
+  }
+  nav a {
+    margin: 10% 0 0 0;
+  }
+  .triangulo_ctn {
+    width: calc(100% - 15vw);
+    padding-right: 0;
+  }
+}
+@media (max-width: 900px) {
+  nav a {
+    padding: 0 7.6vw 20px 7.6vw;
+  }
+  .triangulo_ctn {
+    width: 100%;
+  }
+}
+@media (max-width: 755px) {
+  nav a {
+    padding: 0 6.5vw 20px 6.5vw;
+  }
+}
+@media (max-width: 600px) {
+  nav a {
+    padding: 0 4vw 20px 4vw;
+  }
+}
+@media (max-width: 473px) {
+  nav a {
+    font-size: calc(10px + 3.9vw);
+    padding: 0 1.1vw 20px 1.1vw;
+  }
+}
+@media (max-width: 330px) {
+  nav a {
+    padding: 0;
+  }
+}
